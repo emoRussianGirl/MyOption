@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="377dp"
+        android:layout_height="844dp"
+        android:background="@drawable/rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="368dp"
+        android:layout_height="837dp"
+        android:background="@drawable/rectangle_two"
+        android:radius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.493" />
+
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="373dp"
+        android:layout_height="411dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.709" />
+
+    <ImageView
+
+        android:id="@+id/imageView5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075"
+        app:srcCompat="@drawable/image_7" />
+
+    <ImageView
+
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075"
+        app:srcCompat="@drawable/image_8" />
+
+    <ImageView
+
+        android:id="@+id/imageView3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.401"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075"
+        app:srcCompat="@drawable/image_9" />
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.769"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075"
+        app:srcCompat="@drawable/image_10" />
+
+    <ImageView
+
+        android:id="@+id/imageView2"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481"
+        app:srcCompat="@drawable/image_3" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image4"
+        app:layout_constraintVertical_bias="0.224"
+        app:srcCompat="@drawable/image_2" />
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.26"
+        app:srcCompat="@drawable/image_4" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="312dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/yanonekaffeesatz_bold"
+        android:text="ЛУЧШИЕ ЛЮДИ          48 ЧАСОВ МУЗЫКИ          ФОТОЗОНЫ"
+        android:textColor="#745862"
+        android:textSize="50px"
+        app:layout_constraintBottom_toTopOf="@+id/image4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.709" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="312dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/yanonekaffeesatz_bold"
+        android:text="РОЗЫГРЫШ ПРИЗОВ     СВЕЖИЙ ВОЗДУХ     РАВЛЕЧЕНИЯ"
+        android:textColor="#745862"
+        android:textSize="50px"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        app:layout_constraintVertical_bias="0.747" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="248dp"
+        android:layout_height="29dp"
+        android:fontFamily="@font/yanonekaffeesatz_bold"
+        android:text="Музыкальный фестиваль “Космос”"
+        android:textColor="#FFFFFF"
+        android:textSize="60px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.227" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="237dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/yanonekaffeesatz_bold"
+        android:text="Все во вселенной ритмично. Все танцует."
+        android:textColor="#FFFFFF"
+        android:textSize="50px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.307" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="79dp"
+        android:layout_height="20dp"
+        android:fontFamily="@font/yanonekaffeesatz_bold"
+        android:text="Специальные гости"
+        android:textColor="#FFFFFF"
+        android:textSize="35px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.936" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="83dp"
+        android:layout_height="24dp"
+        android:fontFamily="@font/yanonekaffeesatz_bold"
+        android:text="Купить билет"
+        android:textColor="#FFFFFF"
+        android:textSize="50px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.942" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="102dp"
+        android:layout_height="23dp"
+        android:fontFamily="@font/yanonekaffeesatz_bold"
+        android:text="Место и время встречи"
+        android:textColor="#FFFFFF"
+        android:textSize="35px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.936" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
